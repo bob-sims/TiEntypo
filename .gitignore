@@ -8,3 +8,5 @@ tmp*.class
 # Build folder and log file
 build/
 build.log
+/Resources
+/.settings

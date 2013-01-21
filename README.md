@@ -9,9 +9,14 @@ I also found some other string/hex conversion functions that might be useful for
 ### Screenshots:
 
 ![Sample Alloy app screenshot](https://lh4.googleusercontent.com/-fpui0YoE4MQ/UP0PpRXp3fI/AAAAAAAAYK4/KGhvWJzQYWw/s800/iOS%2520Simulator%2520Screen%2520shot%2520Jan%252021%252C%25202013%25209.57.52%2520AM.png)
+---
+
 ![Font icons styled large and black](https://lh5.googleusercontent.com/-fH_fVjwsQRA/UP0ih5Wg-2I/AAAAAAAAYLU/4rqNPkzJAW0/s800/iOS%2520Simulator%2520Screen%2520shot%2520Jan%252021%252C%25202013%252012.08.02%2520PM.png)
 ---
+
 ![Font icons styled large and black](https://lh5.googleusercontent.com/-iLcpYOigpqE/UP0ih8-cjoI/AAAAAAAAYLc/j4k4Uy1AjnA/s800/iOS%2520Simulator%2520Screen%2520shot%2520Jan%252021%252C%25202013%252012.10.44%2520PM.png)
+---
+
 ![Font social icons styled red](https://lh6.googleusercontent.com/-orBYawHsg98/UP0iiGWg4_I/AAAAAAAAYLY/XNWv8BNhvDQ/s800/iOS%2520Simulator%2520Screen%2520shot%2520Jan%252021%252C%25202013%252012.11.16%2520PM.png)
 ---
 
@@ -62,3 +67,4 @@ Above Ti.UI.label object would render the Github pictogram like this (top icon):
 - For Alloy framework apps, copy the font files into `/assets/fonts`.  For standard Titanium code, copy the font files into `/Resources/fonts`.
 - Any font containing a 'social' search tag requires the `entypo-social.ttf` file, while everything else requires `entypo.ttf`.
 
+Contributions or suggestions are welcome.  [@2wheelsburning](http://www.twitter.com/2wheelsburning)
