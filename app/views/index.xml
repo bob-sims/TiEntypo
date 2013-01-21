@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<TableView id="table" search="search">
+			<SearchBar id="search"/>
+		</TableView>
+	</Window>
+</Alloy>

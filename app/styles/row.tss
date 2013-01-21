@@ -1,0 +1,39 @@
+"#container": {
+	layout: 'vertical',
+	width: '75%',
+	height: Ti.UI.SIZE,
+	left: 5
+},
+
+"#tags": {
+	font: {fontSize:'14dp'},
+	color: 'blue',
+	backgroundColor: 'transparent',
+	left: 5	
+},
+
+"#row": {
+	touchEnabled: false
+},
+
+".icon": {
+	font: {fontFamily:'Entypo',fontSize:'64dp'},
+	color: 'black',
+	backgroundColor: 'transparent',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	//top: 5,
+	//bottom: 5,
+	right: 10
+},
+
+".name": {
+	font: {fontSize:'18dp', fontWeight:'bold'},
+	color: 'black',
+	backgroundColor: 'transparent',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	//top: 5,
+	//bottom: 5,
+	left: 5
+}

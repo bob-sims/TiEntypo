@@ -1,0 +1,9 @@
+<Alloy>
+	<TableViewRow id="row" className="row">
+		<View id="container">
+			<Label id="name" class="name"/>
+			<Label id="tags">
+		</View>
+			<Label id="icon" class="icon"/>
+	</TableViewRow>
+</Alloy>
