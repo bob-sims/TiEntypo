@@ -19,6 +19,10 @@ I also found some other string/hex conversion functions that might be useful for
 
 ![Font social icons styled red](https://lh6.googleusercontent.com/-orBYawHsg98/UP0iiGWg4_I/AAAAAAAAYLY/XNWv8BNhvDQ/s800/iOS%2520Simulator%2520Screen%2520shot%2520Jan%252021%252C%25202013%252012.11.16%2520PM.png)
 ---
+...and on Android:
+
+![Sample Alloy Android app screenshot](https://lh4.googleusercontent.com/-hEgWe8_rgvs/UP0yO-rXnPI/AAAAAAAAYL8/8sH0gFlrGHA/s640/Screen%2520Shot%25202013-01-21%2520at%25201.17.51%2520PM.png)
+---
 
 ### Pros:
 
@@ -50,7 +54,8 @@ I also found some other string/hex conversion functions that might be useful for
 	      fontFamily: iconFont
 	   },
 	   textAlign:'center',
-	   width:'auto'
+	   	height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE
 	});
 
 Above Ti.UI.label object would render the Github pictogram like this (top icon):
@@ -64,7 +69,7 @@ Above Ti.UI.label object would render the Github pictogram like this (top icon):
 - Review [Appcelerator docs](http://docs.appcelerator.com/titanium/latest/#!/guide/Custom_Fonts-section-29004935_CustomFonts-Usingthecustomfont) on installing fonts, and platform differences.
 - Review licensing notes at [Entypo homepage](http://www.entypo.com/) regarding differences between the font icons (CC) and the social extensions.
 - Find human-friendly font names by searching the JSON model (`exports.codeMap`), searching within the demo app, or hovering your mouse cursor over pictograms in the online [character map](http://www.entypo.com/characters.php).
-- For Alloy framework apps, copy the font files into `/assets/fonts`.  For standard Titanium code, copy the font files into `/Resources/fonts`.
+- For Alloy framework apps, copy the font .ttf files into `/assets/fonts`.  For standard Titanium code, copy the font files into `/Resources/fonts`.
 - Any font containing a 'social' search tag requires the `entypo-social.ttf` file, while everything else requires `entypo.ttf`.
 
 Contributions or suggestions are welcome.  [@2wheelsburning](http://www.twitter.com/2wheelsburning)

@@ -10,3 +10,4 @@ build/
 build.log
 /Resources
 /.settings
+.fastdev.lock
